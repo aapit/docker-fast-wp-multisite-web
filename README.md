@@ -1,7 +1,8 @@
-# docker-fast-wp-web
-[![](https://images.microbadger.com/badges/image/aapit/fast-wp-web.svg)](https://microbadger.com/images/aapit/fast-wp-web)
+# docker-fast-wp-multisite-web
+[![](https://images.microbadger.com/badges/image/aapit/fast-wp-multisite-web.svg)](https://microbadger.com/images/aapit/fast-wp-multisite-web)
 
 The Docker image for the nginx server in my fast WordPress cluster.
+Multisite version.
 
 ## Requirements
 * An attached php-fpm server (f.i. Docker container) at:
