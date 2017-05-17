@@ -1,4 +1,5 @@
 FROM nginx:1.13
+RUN apt update && apt install -y vim
 ADD ./config/nginx/nginx.conf /etc/nginx/nginx.conf
 ADD ./config/nginx/conf.d /etc/nginx/conf.d
 ADD ./config/nginx/sites-enabled /etc/nginx/sites-enabled
